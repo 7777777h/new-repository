@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-
-	i
-
+	printf("33");
+        printf("7777"};
+		return 0;
 }
+
 
