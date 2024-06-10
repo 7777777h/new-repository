@@ -53,6 +53,35 @@ LICENSE : GPL 2.0 3.0 /Apahce 2.0 /Mit (放心用）
    
    git config --global user,name "用户名"    //注册用户名
 
+   创建本地密文：
+
+   ssh-keygen -t rsa -C "注册邮箱"  //创建本地密文
+                                
+
+	   //-t 加密类型            //出现图标（->找密文串），创建成功！
+
+   //去对应目录下找密文文件(rsa.pub)复制此密文，（若无邮箱，则失败）
+
+   //关联: github-> setting-> SSH key and GPG-> new ssh key 测试密钥->粘贴
+
+   //测试关联是否完成：
+    ssh -T git@github.com            //ssh远程登陆  yes--Hi
+
+2. 为目标仓库起别名，定位目标仓库，后续上传
+   git remote add orgin "ssh地址（云端地址）"  //为ssh仓库地址创建别名为orgin
+  
+                  //操作地址      //粘贴的仓库地址
+
+   git remote remove origin       //删除origin别名
+
+
+# 本地仓库与云端仓库的交互逻辑
+
+
+
+
+
+
 
 
 
