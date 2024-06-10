@@ -75,13 +75,44 @@ LICENSE : GPL 2.0 3.0 /Apahce 2.0 /Mit (放心用）
    git remote remove origin       //删除origin别名
 
 
-# 本地仓库与云端仓库的交互逻辑
+## 本地仓库与云端仓库的交互逻辑
 ![本地仓库与云端仓库的交互逻辑](C:/Users/DELL//Desktop//2.png)
+ 
+git add code.c    //添加内容
+
+将缓冲区数据提交到本地仓库：
+
+git commit     //提交到本地仓库
+
+git commit -m "备注信息”  //生成提交记录
+
+git push origin（云端仓库地址） master    //将本地仓库内容推到云端仓库
+
+git status      //查看状态
+
+git rm code.c   //删除本地文件及仓库数据
+
+git restore code.c  //复位删除文件（前提：仓库存在）
 
 
+## 代码更新的依赖关系被破坏
+本地内容要比云端新，完成更新替换，但若直接修改云端内容，导致本地内容无法再次提交
+
+解决方法：
+
+**先拉取git pull云端内容，与本地内容合并或操作，而后再次推即可。**
+
+git pull --rebase origin master
+
+git rebase --abort  //忽略新版，此时不能上传
+ 
+git rebase --skip   //需略旧版，更新本地后可以上传（忽略本地内容，保留云端内容）
+
+git rebase --continue //版本合并，解决冲突后可以直接上
 
 
-
+## 下载开源代码
+git clone "HTTPS仓库地址"   //下载开源项目code资源
 
 
 
