@@ -19,6 +19,7 @@
    1. 程序员在整个开发周期有大量的对代码资源的迭代和修改，都可以通过commit的方式      进行记录，便于程序员回溯代码，即使这些代码被删除
    2. 提交便于使用者观察者观察整个工程的开发流程及设计流程
 3. Branch分支
+   
    仓库中可以包含多个分支，分支才是代码文件的第一存储单位
    
    默认的仓库主分支为master/main
@@ -46,10 +47,11 @@ LICENSE : GPL 2.0 3.0 /Apahce 2.0 /Mit (放心用）
    
    git config --list  //查看git的配置文件
   
-  修改或添加config配置项：
+   修改或添加config配置项：
    
    git config --global user.email ”我的邮箱“ //注册邮箱
-
+   
+   git config --global user,name "用户名"    //注册用户名
 
 
 
