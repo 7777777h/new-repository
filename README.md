@@ -1,4 +1,25 @@
-MarkDown ,文本修饰语言，用特殊符号修饰正文效果<br>
+# Github
+
+## 关键字查询
+   awesome 去此标签类别中查询项目
+   python tutorial 查询资料、书籍、文档
+   socket sample 查询对应技术的文本
+
+## Github 三要素
+1. Respository 仓库
+   仓库是github项目管理存储的基本单位
+   一个仓库中存储一个项目，一个用户可以拥有多个仓库
+   一般仓库分为public,private
+
+2. Commit 提交
+   
+
+
+
+# MarkDown语言
+
+MarkDown,文本修饰语言，用特殊符号修饰正文效果<br>
+
 
 ## 标题修饰符\#
 
@@ -43,7 +64,7 @@ MarkDown ,文本修饰语言，用特殊符号修饰正文效果<br>
 
 
 
-## 列表修饰符
+## 列表修饰符（后都有空格）
 
 ### 无序列表\*
 * 二次元游戏
@@ -83,7 +104,7 @@ MarkDown ,文本修饰语言，用特殊符号修饰正文效果<br>
 ```
 ```cpp
 	#include<iostream>
-``
+```
 ```python
        import <os>
 ```
@@ -92,11 +113,14 @@ MarkDown ,文本修饰语言，用特殊符号修饰正文效果<br>
 
 
 
-###超链接技术 
+### 超链接技术 
 
 [Github](https://www.github.com "点击访问")
 
 
+### 插入图片
+
+![壁纸截图](C://Users//DELL//Desktop//1.jpg "悬停标题")
 
 
 
