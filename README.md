@@ -2,25 +2,34 @@
 
 ## 关键字查询
    awesome 去此标签类别中查询项目
+   
    python tutorial 查询资料、书籍、文档
+   
    socket sample 查询对应技术的文本
 
 ## Github 三要素
 1. Respository 仓库
+   
    仓库是github项目管理存储的基本单位
+   
    一个仓库中存储一个项目，一个用户可以拥有多个仓库
+   
    一般仓库分为public,private
 2. Commit 提交
    1. 程序员在整个开发周期有大量的对代码资源的迭代和修改，都可以通过commit的方式      进行记录，便于程序员回溯代码，即使这些代码被删除
    2. 提交便于使用者观察者观察整个工程的开发流程及设计流程
 3. Branch分支
    仓库中可以包含多个分支，分支才是代码文件的第一存储单位
+   
    默认的仓库主分支为master/main
 
 ## 仓库内容
 Code : 资源存储，代码存储，二进制，项目管理脚本，许可证等
+
 issues : 使用时遇到的bug，提交，反馈
+
 README : 使用markdown语言编写，工程的自述文件，开发进度，版本更新，使用介绍等
+
 LICENSE : GPL 2.0 3.0 /Apahce 2.0 /Mit (放心用）
           这些许可证给使用者最大使用权限以及最少的限制
 
@@ -32,10 +41,14 @@ LICENSE : GPL 2.0 3.0 /Apahce 2.0 /Mit (放心用）
 
 ## 设备认证
 1. 让网站的账户与设备绑定，后续完成代码的管理，上传下载
+   
    git init  //创建本地仓库  *后续对仓库的操作都要在仓库位置（master）*
+   
    git config --list  //查看git的配置文件
+  
   修改或添加config配置项：
-    git config --global user.email ”我的邮箱“ //注册邮箱
+   
+   git config --global user.email ”我的邮箱“ //注册邮箱
 
 
 
